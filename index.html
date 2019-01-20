@@ -22,6 +22,11 @@
   img {
     height: 150px;
   }
+
+  button {
+    height: 100px;
+    width: 400px;
+  }
 </style>
 
 <body>
@@ -53,6 +58,13 @@
     <li>Venture Capital</li>
     <li>Executive Management</li>
   </ul>
+  <button type="button" name="button">Click Me!</button>
 </body>
+
+<script>
+
+document.querySelector("button").onclick = function(){alert("hello")}
+
+</script>
 
 </html>
