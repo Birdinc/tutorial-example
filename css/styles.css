@@ -2,6 +2,11 @@ body {
   background-color: #EAF6F6;
 }
 
+button {
+  height: 20px;
+  width: 60px;
+}
+
 h1, h3 {
   color: #66BFBF;
 }
@@ -18,7 +23,18 @@ img {
   height: 150px;
 }
 
-button {
-  height: 20px;
-  width: 60px;
+.bottom {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.middle {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.under  {
+  text-decoration: underline;
 }

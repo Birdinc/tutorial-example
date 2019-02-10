@@ -7,40 +7,23 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<!-- Block elements take up the whole width of the screen -->
+
+<!-- Common Block Elements <p> <h1> through <h6> <div> <ol> <ul> <li> <form> -->
+
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="knock-hq.png" alt=""></td>
-      <td>
-        <h1>David Jefferys</h1>
-        <p>Manager, Business Development</p>
-        <h3>Steemit, Inc.</h3>
-      </td>
-    </tr>
-  </table>
-
-  <h3>Location</h3>
-  <ul>
-    <li>Austin, Texas</li>
-  </ul>
-  <hr>
-  <h3>Projects</h3>
-  <ul>
-    <li>Steemit</li>
-    <li>SApps Incubator</li>
-  </ul>
-  <hr>
-  <a href="skills.html">Skills</a>
-  <hr>
-  <a href="contact-me.html">Contact Me</a>
-  <hr>
-  <button type="button" name="button">Click</button>
+  <div class="top">
+    <img src="img/cloud.png" alt="cloud-img">
+    <h1>David Jefferys</h1>
+    <p>Manager, Business <span class="under">Develop</span>ment</p>
+    <!-- span like div doesn't do very much unless used with CSS -->
+    <!-- span is known as an inline display element which only takes up as mush space as it needs
+        to with the height and width -->
+    <h3>Steemit, Inc.</h3>
+    <img src="img/cloud.png" alt="cloud-img">
+    <img src="img/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle"></div>
+  <div class="bottom"></div>
 </body>
-
-<script>
-  document.querySelector("button").onclick = function() {
-    alert("hello")
-  }
-</script>
-
 </html>
