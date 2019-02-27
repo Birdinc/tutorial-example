@@ -1,7 +1,7 @@
 body {
   background-color: #EAF6F6;
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-family: 'Merriweather', serif;
 }
 
 button {
@@ -9,12 +9,27 @@ button {
   width: 60px;
 }
 
-h1, h2 {
+/* the parent of h1 is body */
+
+h1, h3 {
   color: #66BFBF;
 }
 
+/* 100% in font-size is 16px */
+
+/* 1em === M === 16px = 100% */
+
 h1 {
-  margin-top: 0;
+  font-size: 6.625rem;  /* dynamic font size */
+  margin: 50px auto 0 auto;  /* circle shortband */
+  font-family: 'Sacramento', cursive;
+}
+
+/* CSS3 rem - root em */
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
 }
 
 hr {
@@ -55,6 +70,6 @@ hr {
   height: 200px;
 }
 
-.under  {
+.under {
   text-decoration: underline;
 }
